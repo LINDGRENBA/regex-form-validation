@@ -6,6 +6,32 @@
   <title>Form Validation with RegEx</title>
 </head>
 <body>
+  <h1>Register</h1>
+
+  <form action="#">
+    <label for="username"></label>
+    <input id="username" name="username" type="text" placeholder="username">
+    <p>Username must be alphanumeric and contain 5 - 12 characters</p>
+
+    <label for="email"></label>
+    <input id="email" name="email" type="text" placeholder="email">
+    <p>Email must be a valid address, e.g. me@myemail.com</p>
+
+    <label for="password"></label>
+    <input id="password" name="password" type="text" placeholder="password">
+    <p>Password must be alphanumeric (@, _ and - are also allowed) and be 8 - 20 characters</p>
+
+    <label for="telephone"></label>
+    <input id="telephone" name="telephone" type="text" placeholder="phone number">
+    <p>Telephone must be a valid US telephone number (9 digits)</p>
+
+    <label for="slug"></label>
+    <input id="slug" name="slug" type="text" placeholder="profile slug">slug
+    <p>Slug must contain only lowercase letters or numbers (can include hyphens) and must be 8 - 20 characters</p>
+
+    <button>Submit</button>
+  </form>
   
+  <script src="validation.js"></script>
 </body>
 </html>
