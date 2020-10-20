@@ -7,8 +7,9 @@
 const userInputs = document.querySelectorAll("input"); //collection of elements
 
 const regPatterns = {
+  username: /^[a-z\d]{5,12}$/i,
   telephone: /^\d{10}$/,
-
+  password: /^[@-\w]{8,20}$/
 }
 
 // validation function
