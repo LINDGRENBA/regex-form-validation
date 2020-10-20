@@ -1,5 +1,7 @@
 <h1 style="text-align: center;">Form Validation with RegEx</h1>
 
+![form with validation](img/form.PNG)
+
 #### An exercise in using RegEx for form validation, 10.19.2020
 
 #### By Brittany Lindgren
